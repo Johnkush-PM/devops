@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{70914749-FFE0-4E3F-8C29-40BF9C0B481E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad" Key="{288130A0-1774-4DEB-9F97-58E577A68B79}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{8B66B4D7-1063-455E-97BD-6DB32789F1B9}">
+								<Image FileName="-1431656318" Left="0" Top="0" Right="260" Bottom="493" />
+								<TypeInfo Item0="{A8BE0D33-5D70-4575-AB25-4EB04B517EEF}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{3043234F-525B-4F69-9DBC-B3B9EA4EC7B0}">
+										<Image FileName="-877249806" Left="0" Top="43" Right="1366" Bottom="705" />
+										<TypeInfo Item0="{3228ADD8-3CED-499F-B5B5-099557FE96E4}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgPageSetup" Key="{284162ED-EF2E-4A03-B741-36969220F807}">
+								<Image FileName="-2099447836" Left="0" Top="0" Right="550" Bottom="358" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Page Setup" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="radioLandscape" Key="{A56E7F1B-268C-4D40-8DEC-C79F44503872}">
+										<Image FileName="-2099447836" Left="32" Top="198" Right="110" Bottom="218" />
+										<TypeInfo Item0="{C7C15CA0-B106-462A-86B3-7285111D6AFE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="L&amp;andscape" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="cbxSize" Key="{F5BCAA7D-A2CE-4E51-A946-3385A2A927E2}">
+										<Image FileName="-360952960" Left="104" Top="68" Right="344" Bottom="89" />
+										<TypeInfo Item0="{5037CB4C-973B-4F2E-8875-747D9B7C3BD3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnOK" Key="{8D26BA2A-628C-429E-B24A-5B7F9D22A0F8}">
+										<Image FileName="-1906619015" Left="374" Top="314" Right="449" Bottom="337" />
+										<TypeInfo Item0="{2868F5A0-3622-4F13-994C-CF6BBBE91200}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgNotepad" Key="{7198536A-945C-4512-9C2F-3365D328B8A0}">
+								<Image FileName="-1310293106" Left="0" Top="0" Right="366" Bottom="141" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Notepad" Key="{DFE8F535-DA89-4E05-AC48-56B356424541}">
+										<Image FileName="-1310293106" Left="8" Top="31" Right="358" Bottom="133" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Notepad" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{E640CFC8-CD0A-4307-B9BF-333E9E07CCA2}">
+												<Image FileName="-1310293106" Left="178" Top="101" Right="270" Bottom="124" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{1319DA4D-05FC-41EE-A2CF-AB20D8BDE93E}">
+														<Image FileName="-1310293106" Left="178" Top="101" Right="270" Bottom="124" />
+														<TypeInfo Item0="{2868F5A0-3622-4F13-994C-CF6BBBE91200}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Do&amp;n&apos;t Save" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{9A5E6428-DD5A-489E-B9FB-EF51CC0381F9}">
+						<TypeInfo Item0="{022722EA-BAA9-488F-B988-4AF3DAA83E7C}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageConsumerSalesSalesRepPerform" Key="{9D0C5D7D-FB28-4E37-8EB8-3750C9E0BBB0}">
+								<Image FileName="992212137" Left="8" Top="95" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{EA5E88DC-7457-40F8-A5CE-B5CFC0506E98}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sense-demo.qlik.com/sso/sense/app/372cbc85-f7fb-4db6-a620-9a5367845dce/sheet/xjXHDyD/state/analysis" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelGrid" Key="{595EA1B9-E736-41E1-8FC1-99FAD20025AA}" ExtendedFind="True">
+										<Image FileName="992212137" Left="13" Top="230" Right="1369" Bottom="731" />
+										<TypeInfo Item0="{71586C5B-8BB0-478B-817F-B1F6ABF97537}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="grid" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelScatterPlot" Key="{692D08AB-492B-4F1C-819D-9B05CFD918BE}">
+												<Image FileName="992212137" Left="354" Top="232" Right="915" Bottom="479" />
+												<TypeInfo Item0="{71586C5B-8BB0-478B-817F-B1F6ABF97537}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="articleScatterPlot" Key="{280E7D98-5608-497D-94C2-0AE194C0EEC6}" ExtendedFind="True">
+														<Image FileName="992212137" Left="356" Top="234" Right="913" Bottom="477" />
+														<TypeInfo Item0="{71586C5B-8BB0-478B-817F-B1F6ABF97537}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Article" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelYcugsjContent" Key="{BF04F80D-EB13-45F3-B5E5-05EC085FD1E0}" ExtendedFind="True">
+																<Image FileName="992212137" Left="367" Top="277" Right="902" Bottom="471" />
+																<TypeInfo Item0="{71586C5B-8BB0-478B-817F-B1F6ABF97537}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="yCUgsJ_content" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelMargin" Key="{ECB26C18-7FDA-43F3-972A-3132B7E1B522}" ExtendedFind="True">
+																		<Image FileName="992212137" Left="367" Top="277" Right="902" Bottom="471" />
+																		<TypeInfo Item0="{71586C5B-8BB0-478B-817F-B1F6ABF97537}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="4D0061007200670069006E00200025000A00540059002000530061006C0065007300" Type="7" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad" Owner="{288130A0-1774-4DEB-9F97-58E577A68B79}">
+			<Child Name="wndNotepad" Owner="{8B66B4D7-1063-455E-97BD-6DB32789F1B9}">
+				<Child Name="Edit" Owner="{3043234F-525B-4F69-9DBC-B3B9EA4EC7B0}" />
+			</Child>
+			<Child Name="dlgPageSetup" Owner="{284162ED-EF2E-4A03-B741-36969220F807}">
+				<Child Name="radioLandscape" Owner="{A56E7F1B-268C-4D40-8DEC-C79F44503872}" />
+				<Child Name="cbxSize" Owner="{F5BCAA7D-A2CE-4E51-A946-3385A2A927E2}" />
+				<Child Name="btnOK" Owner="{8D26BA2A-628C-429E-B24A-5B7F9D22A0F8}" />
+			</Child>
+			<Child Name="dlgNotepad" Owner="{7198536A-945C-4512-9C2F-3365D328B8A0}">
+				<Child Name="Notepad" Owner="{DFE8F535-DA89-4E05-AC48-56B356424541}">
+					<Child Name="CtrlNotifySink" Owner="{E640CFC8-CD0A-4307-B9BF-333E9E07CCA2}">
+						<Child Name="btnDontSave" Owner="{1319DA4D-05FC-41EE-A2CF-AB20D8BDE93E}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{9A5E6428-DD5A-489E-B9FB-EF51CC0381F9}">
+			<Child Name="pageConsumerSalesSalesRepPerform" Owner="{9D0C5D7D-FB28-4E37-8EB8-3750C9E0BBB0}">
+				<Child Name="articleScatterPlot" Owner="{280E7D98-5608-497D-94C2-0AE194C0EEC6}">
+					<Child Name="panelMargin" Owner="{ECB26C18-7FDA-43F3-972A-3132B7E1B522}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
